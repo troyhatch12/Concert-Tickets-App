@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 totalCost = costPerTicket * numberOfTickets;
                 DecimalFormat currency = new DecimalFormat("$###,###.##");
                 groupChoice = group.getSelectedItem().toString();
-                result.setText("Cost for" + groupChoice + "is " + currency.format(totalCost));
+                result.setText("Cost for " + groupChoice + "is " + currency.format(totalCost));
 
 
             }
